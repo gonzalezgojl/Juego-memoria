@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAC153A1D3AC8EC00A3D3EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC15391D3AC8EC00A3D3EA /* AppDelegate.swift */; };
+		4CAC153C1D3AC8EC00A3D3EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC153B1D3AC8EC00A3D3EA /* ViewController.swift */; };
+		4CAC153F1D3AC8EC00A3D3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC153D1D3AC8EC00A3D3EA /* Main.storyboard */; };
+		4CAC15411D3AC8EC00A3D3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC15401D3AC8EC00A3D3EA /* Assets.xcassets */; };
+		4CAC15441D3AC8EC00A3D3EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC15421D3AC8EC00A3D3EA /* LaunchScreen.storyboard */; };
+		4CAC154F1D3AC8EC00A3D3EA /* Juego_MemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC154E1D3AC8EC00A3D3EA /* Juego_MemoriaTests.swift */; };
+		4CAC155A1D3AC8EC00A3D3EA /* Juego_MemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC15591D3AC8EC00A3D3EA /* Juego_MemoriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CAC154B1D3AC8EC00A3D3EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAC152E1D3AC8EC00A3D3EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAC15351D3AC8EC00A3D3EA;
+			remoteInfo = "Juego Memoria";
+		};
+		4CAC15561D3AC8EC00A3D3EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAC152E1D3AC8EC00A3D3EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAC15351D3AC8EC00A3D3EA;
+			remoteInfo = "Juego Memoria";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CAC15361D3AC8EC00A3D3EA /* Juego Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juego Memoria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAC15391D3AC8EC00A3D3EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CAC153B1D3AC8EC00A3D3EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CAC153E1D3AC8EC00A3D3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CAC15401D3AC8EC00A3D3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CAC15431D3AC8EC00A3D3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CAC15451D3AC8EC00A3D3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAC154A1D3AC8EC00A3D3EA /* Juego MemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Juego MemoriaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAC154E1D3AC8EC00A3D3EA /* Juego_MemoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juego_MemoriaTests.swift; sourceTree = "<group>"; };
+		4CAC15501D3AC8EC00A3D3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAC15551D3AC8EC00A3D3EA /* Juego MemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Juego MemoriaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAC15591D3AC8EC00A3D3EA /* Juego_MemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juego_MemoriaUITests.swift; sourceTree = "<group>"; };
+		4CAC155B1D3AC8EC00A3D3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAC15331D3AC8EC00A3D3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC15471D3AC8EC00A3D3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC15521D3AC8EC00A3D3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAC152D1D3AC8EC00A3D3EA = {
+			isa = PBXGroup;
+			children = (
+				4CAC15381D3AC8EC00A3D3EA /* Juego Memoria */,
+				4CAC154D1D3AC8EC00A3D3EA /* Juego MemoriaTests */,
+				4CAC15581D3AC8EC00A3D3EA /* Juego MemoriaUITests */,
+				4CAC15371D3AC8EC00A3D3EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAC15371D3AC8EC00A3D3EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC15361D3AC8EC00A3D3EA /* Juego Memoria.app */,
+				4CAC154A1D3AC8EC00A3D3EA /* Juego MemoriaTests.xctest */,
+				4CAC15551D3AC8EC00A3D3EA /* Juego MemoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAC15381D3AC8EC00A3D3EA /* Juego Memoria */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC15391D3AC8EC00A3D3EA /* AppDelegate.swift */,
+				4CAC153B1D3AC8EC00A3D3EA /* ViewController.swift */,
+				4CAC153D1D3AC8EC00A3D3EA /* Main.storyboard */,
+				4CAC15401D3AC8EC00A3D3EA /* Assets.xcassets */,
+				4CAC15421D3AC8EC00A3D3EA /* LaunchScreen.storyboard */,
+				4CAC15451D3AC8EC00A3D3EA /* Info.plist */,
+			);
+			path = "Juego Memoria";
+			sourceTree = "<group>";
+		};
+		4CAC154D1D3AC8EC00A3D3EA /* Juego MemoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC154E1D3AC8EC00A3D3EA /* Juego_MemoriaTests.swift */,
+				4CAC15501D3AC8EC00A3D3EA /* Info.plist */,
+			);
+			path = "Juego MemoriaTests";
+			sourceTree = "<group>";
+		};
+		4CAC15581D3AC8EC00A3D3EA /* Juego MemoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC15591D3AC8EC00A3D3EA /* Juego_MemoriaUITests.swift */,
+				4CAC155B1D3AC8EC00A3D3EA /* Info.plist */,
+			);
+			path = "Juego MemoriaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAC15351D3AC8EC00A3D3EA /* Juego Memoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAC155E1D3AC8EC00A3D3EA /* Build configuration list for PBXNativeTarget "Juego Memoria" */;
+			buildPhases = (
+				4CAC15321D3AC8EC00A3D3EA /* Sources */,
+				4CAC15331D3AC8EC00A3D3EA /* Frameworks */,
+				4CAC15341D3AC8EC00A3D3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Juego Memoria";
+			productName = "Juego Memoria";
+			productReference = 4CAC15361D3AC8EC00A3D3EA /* Juego Memoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAC15491D3AC8EC00A3D3EA /* Juego MemoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAC15611D3AC8EC00A3D3EA /* Build configuration list for PBXNativeTarget "Juego MemoriaTests" */;
+			buildPhases = (
+				4CAC15461D3AC8EC00A3D3EA /* Sources */,
+				4CAC15471D3AC8EC00A3D3EA /* Frameworks */,
+				4CAC15481D3AC8EC00A3D3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAC154C1D3AC8EC00A3D3EA /* PBXTargetDependency */,
+			);
+			name = "Juego MemoriaTests";
+			productName = "Juego MemoriaTests";
+			productReference = 4CAC154A1D3AC8EC00A3D3EA /* Juego MemoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CAC15541D3AC8EC00A3D3EA /* Juego MemoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAC15641D3AC8EC00A3D3EA /* Build configuration list for PBXNativeTarget "Juego MemoriaUITests" */;
+			buildPhases = (
+				4CAC15511D3AC8EC00A3D3EA /* Sources */,
+				4CAC15521D3AC8EC00A3D3EA /* Frameworks */,
+				4CAC15531D3AC8EC00A3D3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAC15571D3AC8EC00A3D3EA /* PBXTargetDependency */,
+			);
+			name = "Juego MemoriaUITests";
+			productName = "Juego MemoriaUITests";
+			productReference = 4CAC15551D3AC8EC00A3D3EA /* Juego MemoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAC152E1D3AC8EC00A3D3EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jose Luis Gonzalez Gomez";
+				TargetAttributes = {
+					4CAC15351D3AC8EC00A3D3EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4CAC15491D3AC8EC00A3D3EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CAC15351D3AC8EC00A3D3EA;
+					};
+					4CAC15541D3AC8EC00A3D3EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CAC15351D3AC8EC00A3D3EA;
+					};
+				};
+			};
+			buildConfigurationList = 4CAC15311D3AC8EC00A3D3EA /* Build configuration list for PBXProject "Juego Memoria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAC152D1D3AC8EC00A3D3EA;
+			productRefGroup = 4CAC15371D3AC8EC00A3D3EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAC15351D3AC8EC00A3D3EA /* Juego Memoria */,
+				4CAC15491D3AC8EC00A3D3EA /* Juego MemoriaTests */,
+				4CAC15541D3AC8EC00A3D3EA /* Juego MemoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAC15341D3AC8EC00A3D3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC15441D3AC8EC00A3D3EA /* LaunchScreen.storyboard in Resources */,
+				4CAC15411D3AC8EC00A3D3EA /* Assets.xcassets in Resources */,
+				4CAC153F1D3AC8EC00A3D3EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC15481D3AC8EC00A3D3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC15531D3AC8EC00A3D3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAC15321D3AC8EC00A3D3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC153C1D3AC8EC00A3D3EA /* ViewController.swift in Sources */,
+				4CAC153A1D3AC8EC00A3D3EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC15461D3AC8EC00A3D3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC154F1D3AC8EC00A3D3EA /* Juego_MemoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC15511D3AC8EC00A3D3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC155A1D3AC8EC00A3D3EA /* Juego_MemoriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAC154C1D3AC8EC00A3D3EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAC15351D3AC8EC00A3D3EA /* Juego Memoria */;
+			targetProxy = 4CAC154B1D3AC8EC00A3D3EA /* PBXContainerItemProxy */;
+		};
+		4CAC15571D3AC8EC00A3D3EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAC15351D3AC8EC00A3D3EA /* Juego Memoria */;
+			targetProxy = 4CAC15561D3AC8EC00A3D3EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CAC153D1D3AC8EC00A3D3EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAC153E1D3AC8EC00A3D3EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CAC15421D3AC8EC00A3D3EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAC15431D3AC8EC00A3D3EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAC155C1D3AC8EC00A3D3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CAC155D1D3AC8EC00A3D3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAC155F1D3AC8EC00A3D3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Juego Memoria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Juego-Memoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CAC15601D3AC8EC00A3D3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Juego Memoria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Juego-Memoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CAC15621D3AC8EC00A3D3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Juego MemoriaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Juego-MemoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juego Memoria.app/Juego Memoria";
+			};
+			name = Debug;
+		};
+		4CAC15631D3AC8EC00A3D3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Juego MemoriaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Juego-MemoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juego Memoria.app/Juego Memoria";
+			};
+			name = Release;
+		};
+		4CAC15651D3AC8EC00A3D3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Juego MemoriaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Juego-MemoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Juego Memoria";
+			};
+			name = Debug;
+		};
+		4CAC15661D3AC8EC00A3D3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Juego MemoriaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Juego-MemoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Juego Memoria";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAC15311D3AC8EC00A3D3EA /* Build configuration list for PBXProject "Juego Memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC155C1D3AC8EC00A3D3EA /* Debug */,
+				4CAC155D1D3AC8EC00A3D3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAC155E1D3AC8EC00A3D3EA /* Build configuration list for PBXNativeTarget "Juego Memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC155F1D3AC8EC00A3D3EA /* Debug */,
+				4CAC15601D3AC8EC00A3D3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CAC15611D3AC8EC00A3D3EA /* Build configuration list for PBXNativeTarget "Juego MemoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC15621D3AC8EC00A3D3EA /* Debug */,
+				4CAC15631D3AC8EC00A3D3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CAC15641D3AC8EC00A3D3EA /* Build configuration list for PBXNativeTarget "Juego MemoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC15651D3AC8EC00A3D3EA /* Debug */,
+				4CAC15661D3AC8EC00A3D3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAC152E1D3AC8EC00A3D3EA /* Project object */;
+}
